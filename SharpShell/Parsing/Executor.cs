@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace SharpShell.Parsing
 {
-    /// <summary>
-    /// Handles user interaction with the shell.
-    /// </summary>
-    public class InteractionHandler
+    public class Executor
     {
-        public void ProcessInput()
+        public void Execute(string command, string[] args)
         {
             
         }

@@ -9,7 +9,7 @@ using SharpShell.Parsing.Commands;
 namespace SharpShell
 {
     /// <summary>
-    /// Encapsulates the entire SharpShell's functionality.
+    /// Encapsulates the entire shell's functionality.
     /// </summary>
     public class Shell
     {

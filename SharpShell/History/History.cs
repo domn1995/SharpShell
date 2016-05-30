@@ -34,7 +34,7 @@ namespace SharpShell.History
                 {
                     currentIndex--;
                 }
-                return Hist[(currentIndex + Hist.Count) & Hist.Count];
+                return Hist[(currentIndex + Hist.Count) % Hist.Count];
             }
         }
 
@@ -54,7 +54,7 @@ namespace SharpShell.History
         /// Insert at index 1 because we want a blank for index 0.
         /// </summary>
         /// <param name="item">The item to insert into the history.</param>
-        public virtual void AddToHistory(T item)
+        public virtual void Add(T item)
         {
             Hist.Insert(1, item);
         }

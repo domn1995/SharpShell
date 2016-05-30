@@ -47,6 +47,7 @@
     <Compile Include="Parsing\Commands\ArgumentsAttribute.cs" />
     <Compile Include="Parsing\Commands\CommandAttribute.cs" />
     <Compile Include="Parsing\Commands\CommandParser.cs" />
+    <Compile Include="Parsing\Executor.cs" />
     <Compile Include="Parsing\InteractionHandler.cs" />
     <Compile Include="Shell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
