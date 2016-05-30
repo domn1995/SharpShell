@@ -40,11 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Helpers\Extensions.cs" />
+    <Compile Include="FileStructure\Context.cs" />
+    <Compile Include="Helpers\ReflectionHelper.cs" />
     <Compile Include="History\History.cs" />
     <Compile Include="Parsing\Commands\ArgumentsAttribute.cs" />
     <Compile Include="Parsing\Commands\CommandAttribute.cs" />
-    <Compile Include="Parsing\Commands\Parser.cs" />
+    <Compile Include="Parsing\Commands\CommandParser.cs" />
+    <Compile Include="Parsing\InteractionHandler.cs" />
     <Compile Include="Shell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

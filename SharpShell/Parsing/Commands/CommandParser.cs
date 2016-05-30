@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SharpShell.Parsing.Commands
 {
-    public class Parser
+    public class CommandParser
     {
 
     }

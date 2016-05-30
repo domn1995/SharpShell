@@ -14,12 +14,12 @@ namespace SharpShell
     public class Shell
     {
         public History<string> History;
-        public Parser Parser;
+        public CommandParser CommandParser;
 
         public Shell()
         {
             History = new History<string>();
-            Parser = new Parser();
+            CommandParser = new CommandParser();
         }
     }
 }

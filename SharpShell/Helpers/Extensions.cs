@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SharpShell.Extensions
+namespace SharpShell.Helpers
 {
+    /// <summary>
+    /// Contains useful extensions to the project.
+    /// </summary>
     internal static class Extensions
     {
         internal static bool Equals(this string text, string compare)
